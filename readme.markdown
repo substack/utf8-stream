@@ -27,6 +27,18 @@ u8.end();
 Inside the `through(function (buf) {})`, each `buf` will never span a utf8
 multi-byte character so we can just call `.toString('utf8')`.
 
+output:
+
+```
+遙
+遠
+未
+來
+的
+事
+件
+```
+
 # methods
 
 ``` js

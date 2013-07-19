@@ -4,13 +4,11 @@
   "description": "buffer utf8 characters that would otherwise span chunk boundaries",
   "main": "index.js",
   "dependencies": {
-    "chunky": "~0.0.0",
-    "pull-stream-to-stream": "~1.2.6",
-    "pull-utf8-decoder": "~1.0.0",
-    "readable-stream": "~1.0.2",
-    "through": "~2.3.4"
+    "readable-stream": "~1.0.2"
   },
   "devDependencies": {
+    "chunky": "~0.0.0",
+    "through": "~2.3.4",
     "tape": "~1.0.4"
   },
   "scripts": {

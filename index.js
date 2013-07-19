@@ -7,6 +7,7 @@ module.exports = function () {
     
     tr._transform = function (chunk, enc, next) {
         var len = chunk.length;
+        if (len === 0) return next();
         var i = 0;
         
         if (buffer) {
@@ -26,6 +27,7 @@ module.exports = function () {
         for (var j = Math.max(i, len - 5); j < len; j++) {
             var n = nbytes(chunk[j]);
             if (n > len - j) {
+                if (j - i > 0) this.push(chunk.slice(i, j));
                 buffer = Buffer(n);
                 for (index = 0; index < len - j; index++) {
                     buffer[index] = chunk[j + index];

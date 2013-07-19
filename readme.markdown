@@ -2,6 +2,8 @@
 
 buffer utf8 characters that would otherwise span chunk boundaries
 
+[![build status](https://secure.travis-ci.org/substack/utf8-stream.png)](http://travis-ci.org/substack/utf8-stream)
+
 # example
 
 Here we'll write some chinese characters at random byte offsets:

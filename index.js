@@ -42,6 +42,7 @@ module.exports = function () {
     
     tr._flush = function () {
         if (buffer) this.push(buffer.slice(0, index));
+        this.push(null);
     };
     
     return tr;

@@ -1,0 +1,39 @@
+{
+  "name": "utf8-stream",
+  "version": "0.0.0",
+  "description": "buffer utf8 characters that would otherwise span chunk boundaries",
+  "main": "index.js",
+  "dependencies": {
+    "chunky": "~0.0.0",
+    "pull-stream-to-stream": "~1.2.6",
+    "pull-utf8-decoder": "~1.0.0",
+    "readable-stream": "~1.0.2",
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/utf8-stream.git"
+  },
+  "homepage": "https://github.com/substack/utf8-stream",
+  "keywords": [
+    "utf8",
+    "unicode",
+    "chunk",
+    "boundary",
+    "encoding",
+    "buffer",
+    "toString"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}

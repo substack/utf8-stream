@@ -2,6 +2,8 @@
 
 buffer utf8 characters that would otherwise span chunk boundaries
 
+[![testling badge](https://ci.testling.com/substack/utf8-stream.png)](https://ci.testling.com/substack/utf8-stream)
+
 [![build status](https://secure.travis-ci.org/substack/utf8-stream.png)](http://travis-ci.org/substack/utf8-stream)
 
 # example
